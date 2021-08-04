@@ -1,4 +1,5 @@
 @use 'colors';
+@use 'mixins';
 
 .btn {
   background-color: #f95415;
@@ -20,26 +21,14 @@
   }
 
   &--success {
-    background-color: colors.$success;
-
-    &:hover {
-      background-color: colors.$success-dark;
-    }
+    @include mixins.btn-style(colors.$success, colors.$success-dark);
   }
   
   &--warning {
-    background-color: colors.$warning;
-
-    &:hover {
-      background-color: colors.$warning-dark;
-    }
+    @include mixins.btn-style(colors.$warning, colors.$warning-dark);
   }
   
   &--danger {
-    background-color: colors.$danger;
-
-    &:hover {
-      background-color: colors.$danger-dark;
-    }
+    @include mixins.btn-style(colors.$danger, colors.$danger-dark);
   }
 }
