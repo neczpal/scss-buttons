@@ -5,3 +5,13 @@
     background-color: $background-hover;
   }
 }
+
+@mixin btn-styled($modifier, $background, $background-hover) {
+  &--#{$modifier} {
+    background-color: $background;
+
+    &:hover {
+      background-color: $background-hover;
+    }
+  }
+}
