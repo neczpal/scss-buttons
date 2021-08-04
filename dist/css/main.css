@@ -1,4 +1,4 @@
-.btn, .btn--danger, .btn--warning, .btn--success {
+.btn--danger, .btn--warning, .btn--success {
   background-color: #f95415;
   border: none;
   border-radius: 0.25rem;
@@ -10,7 +10,7 @@
   transition: text-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   white-space: nowrap;
 }
-.btn:hover, .btn--danger:hover, .btn--warning:hover, .btn--success:hover {
+.btn--danger:hover, .btn--warning:hover, .btn--success:hover {
   cursor: pointer;
   text-shadow: 0 0 1px #fff;
   background-color: #c03a3a;

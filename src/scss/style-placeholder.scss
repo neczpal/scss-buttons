@@ -1,6 +1,6 @@
 @use 'colors';
 
-.btn {
+%btn {
   background-color: #f95415;
   border: none;
   border-radius: 0.25rem;
@@ -21,7 +21,7 @@
 }
 
 .btn--success {
-  @extend .btn;
+  @extend %btn;
   background-color: colors.$success;
 
   &:hover {
@@ -30,7 +30,7 @@
 }
 
 .btn--warning {
-  @extend .btn;
+  @extend %btn;
   background-color: colors.$warning;
 
   &:hover {
@@ -39,7 +39,7 @@
 }
 
 .btn--danger {
-  @extend .btn;
+  @extend %btn;
   background-color: colors.$danger;
 
   &:hover {

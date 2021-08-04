@@ -14,7 +14,9 @@
     "build": "sass src/scss/style.scss dist/css/main.css",
     "watch": "sass --watch src/scss/style.scss dist/css/main.css",
     "build-extend": "sass src/scss/style-extend.scss dist/css/main.css",
-    "watch-extend": "sass --watch src/scss/style-extend.scss dist/css/main.css"
+    "watch-extend": "sass --watch src/scss/style-extend.scss dist/css/main.css",
+    "build-placeholder": "sass src/scss/style-placeholder.scss dist/css/main.css",
+    "watch-placeholder": "sass --watch src/scss/style-placeholder.scss dist/css/main.css"
   },
   "devDependencies": {}
 }
