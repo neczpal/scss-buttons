@@ -20,19 +20,19 @@
   background-color: #00cc00;
 }
 .btn--success:hover {
-  background-color: #3ab54a;
+  background-color: #00b800;
 }
 .btn--warning {
   background-color: #e77e21;
 }
 .btn--warning:hover {
-  background-color: #e75521;
+  background-color: #d67117;
 }
 .btn--danger {
   background-color: #e52923;
 }
 .btn--danger:hover {
-  background-color: #c03a2a;
+  background-color: #d41f19;
 }
 
 /*# sourceMappingURL=main.css.map */
